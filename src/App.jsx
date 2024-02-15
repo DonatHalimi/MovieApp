@@ -8,7 +8,7 @@ import TVSeries from './components/tvseries/TVSeries'
 import TVSeriesDetails from './components/tvseries/details/TVSeriesDetails'
 import MoviesByGenre from './components/movies/MoviesByGenre'
 import TVSeriesByGenre from './components/tvseries/TVSeriesByGenre'
-import { ToTop } from '../../OmniShop/src/components/ToTop'
+import { ToTop } from './components/ToTop'
 import { ToastContainer } from 'react-toastify'
 
 import './App.css'
