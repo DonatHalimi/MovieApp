@@ -1,0 +1,158 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import '@splidejs/splide/dist/css/themes/splide-default.min.css';
+
+body {
+  background-color: #F7F7F7;
+}
+
+::selection {
+  background-color: #4B5563;
+  color: white;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #4B5563;
+  border-radius: 6px;
+  transition: all 0.5s ease-in-out;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #53585e;
+  transition: all 0.5s ease-in-out;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #F7F7F7;
+}
+
+body::-webkit-scrollbar-corner {
+  background-color: #F7F7F7;
+}
+
+.custom-width {
+  max-height: 2000px;
+  max-width: 1000px;
+}
+
+.average-rating {
+  position: relative;
+  top: 6px;
+  left: 105px;
+  font-size: 20px;
+}
+
+.more-movies {
+  position: relative;
+  top: 2px;
+  right: 450px;
+}
+
+.more-series {
+  position: relative;
+  top: 2px;
+  right: 440px;
+  z-index: 0;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.pagination a {
+  padding: 8px 12px;
+  margin: 0 5px;
+  color: #1F2937;
+  border: 1px solid #000;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.pagination a:hover {
+  background-color: #1F2937;
+  transition: all 0.4s ease-in-out;
+  color: white;
+}
+
+.pagination .pagination-link.active a {
+  background-color: #1F2937;
+  color: white;
+}
+
+.pagination-link.disabled {
+  pointer-events: none;
+  color: #666;
+}
+
+.pagination-link.disabled:hover {
+  cursor: none;
+}
+
+.custom-slide-style.is-active {
+  border: none;
+}
+
+.dropdown-sorting {
+  position: relative;
+  left: 1126px;
+  width: 10%;
+}
+
+.logo {
+  width: 200px;
+}
+
+.dropdown-list {
+  max-height: 500px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #4B5563 #FFFFFF;
+}
+
+.custom-scrollbar:hover {
+  scrollbar-color: #53585e #FFFFFF;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 12px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #4B5563;
+  border-radius: 6px;
+  transition: all 0.5s ease-in-out;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #53585e;
+  transition: all 0.5s ease-in-out;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: #FFFFFF;
+}
+
+.custom-scrollbar::-webkit-scrollbar-corner {
+  background-color: #FFFFFF;
+}
+
+.navbar-link-active {
+  color: #90acc0;
+  font-weight: bold;
+  border-bottom: 2px solid #859fb1;
+}
