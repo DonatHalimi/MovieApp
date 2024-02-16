@@ -8,9 +8,12 @@ pnpm-debug.log*
 lerna-debug.log*
 
 # Ignore all of node_modules
-node_modules/
-# Exclude specific folder from node_modules
+!node_modules/
+
+node_modules/*
 !node_modules/@splidejs/
+
+node_modules/@splidejs/*
 
 dist
 dist-ssr
