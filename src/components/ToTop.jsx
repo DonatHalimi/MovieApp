@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react'
+import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const ToTop = () => {
     const [isVisible, setIsVisible] = useState(false)
@@ -51,7 +53,7 @@ export const ToTop = () => {
         <div>
             {isVisible && (
                 <button onClick={scrollToTop} style={buttonStyle}>
-                    <FontAwesomeIcon style={arrowStyle} />
+                    <FontAwesomeIcon icon={faArrowUp} style={arrowStyle} />
                 </button>
             )}
         </div>
